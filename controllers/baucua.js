@@ -4,7 +4,6 @@ exports.baucua = async (req, res, next) => {
 let input = req.query.chon;
   var ehe = {}
       ehe.error = `Sai định dạng [ Bầu - Cua - Cá - Nai - Gà - Tôm ]`
-      ehe.huongdan = `https://apixin-1.toannguyen73.repl.co/baucua?chon= + [ Bầu - Cua - Cá - Nai - Gà - Tôm ]`
 res.header("Content-type", "application/json; charset=utf-8")
 if(!input) return res.send(JSON.stringify( ehe, null,2 ))
 const slotItems = ["🍐", "🦀", "🐟", "🦌", "🐓", "🦞"];
