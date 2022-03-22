@@ -7,7 +7,7 @@ let input = req.query.chon;
 res.header("Content-type", "application/json; charset=utf-8")
 if(!input) return res.send(JSON.stringify( ehe, null,2 ))
 const slotItems = ["🍐", "🦀", "🐟", "🦌", "🐓", "🦞"];
-var number = [], win = false;
+var number = [];
 for (let i = 0; i < 3; i++) number[i] = slotItems[Math.floor(Math.random() * slotItems.length)];
 var itemm;
         switch (input) {
