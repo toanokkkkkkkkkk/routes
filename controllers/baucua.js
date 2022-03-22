@@ -8,17 +8,6 @@ let input = req.query.chon;
 res.header("Content-type", "application/json; charset=utf-8")
 if(!input) return res.send(JSON.stringify( ehe, null,2 ))
 const slotItems = ["🍐", "🦀", "🐟", "🦌", "🐓", "🦞"];
-   ///////////////////////////////////////
-  //////// Ko bt thêm image :(( /////////
- ///////////////////////////////////////
-/* var image = [
-      'https://i.imgur.com/jPdZ1Q8.jpg',
-      'https://i.imgur.com/4214Xx9.jpg',
-      'https://i.imgur.com/4KLd4EE.jpg',
-      'https://i.imgur.com/s8YAaxx.jpg',
-      'https://i.imgur.com/YbFzAOU.jpg',
-      'https://i.imgur.com/UYhUZf8.jpg'
-            ]; */
 var number = [], win = false;
 for (let i = 0; i < 3; i++) number[i] = slotItems[Math.floor(Math.random() * slotItems.length)];
 var itemm;
