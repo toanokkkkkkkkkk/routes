@@ -44,7 +44,4 @@ var hi = {}
     hi.authors = `Tòn`
 res.header("Content-type", "application/json; charset=utf-8")
 res.send(JSON.stringify(hi, null, 2))
-var he = []
-    he.baucua = hi
-console.log(he)
 };
