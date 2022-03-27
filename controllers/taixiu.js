@@ -1,6 +1,6 @@
 const { errorHandler } = require("../utils");
 
-exports.lac = async (req, res, next) => {
+exports.taixiu = async (req, res, next) => {
   let input = req.query.chon;
   let one = Math.ceil(Math.random()*6);
   let two = Math.ceil(Math.random()*6);
